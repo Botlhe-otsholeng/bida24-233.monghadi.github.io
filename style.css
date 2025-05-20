@@ -1,0 +1,136 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body Styles */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #e2f7e2; /* Light green background */
+  color:white;
+}
+
+/* Header Styles */
+header {
+  background: linear-gradient(90deg, #4CAF50, #8BC34A); /* Gradient header */
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+}
+
+/* Navigation Styles */
+nav ul {
+  list-style-type: none;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+nav ul li a:hover {
+  color: #FFEB3B; /* Yellow on hover */
+}
+
+/* Section Styles */
+.Sales {
+  text-align: center;
+  background-color: lightyellow;
+  padding: 30px;
+  margin: 20px auto;
+  width: 80%;
+  border-radius: 20px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1) ;
+}
+
+.Sales h2 {
+  font-size: 2.5rem;
+  color: black; /* Bright orange */
+}
+.sales .cattle{
+  background: white;
+  padding: 15px;
+  box-shadow: 10px;
+  display: inline-block;
+  width: 80%;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+/* Livestock Sales Styles */
+.livestock-sales {
+  margin: 40%;
+  padding: 80%;
+}
+
+/* Cattle Styles */
+.cattle {
+  display: inline-block;
+  width: 300px;
+  margin: 20px;
+  padding: 40px;
+  border: 2px solid #FF5722; /* Orange border */
+  border-radius: 10px;
+  overflow: hidden;
+  background-color: white;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.cattle:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+}
+
+.cattle img {
+  width: 100%;
+  height: auto;
+}
+
+.cattle h3 {
+  text-align: center;
+  color: #4CAF50; /* Green color for headings */
+  padding: 10px 0;
+}
+
+/* Price Styles */
+strong {
+  font-size: 1.5rem;
+  color: black; /* black for prices */
+}
+
+/* Footer Styles */
+footer {
+  background-color: #333;
+  text-align: center;
+  margin: 20px 0;
+  font-size: 0.9rem;
+  color: white;
+
+}
+footer p:hover{
+  color: white;
+}
+nav a:hover {
+    color: #ffeb3b; /* Change text color on hover */
+}
+body {
+  background-image: url('images/lawn-gardens.jpg'); /* Path to your background image */
+  background-size: cover; /* Ensures the image covers the entire background */
+  background-position: center; /* Centers the image */
+  background-repeat: no-repeat; /* Prevents the image from repeating */
+}
+
+.content {
+  color: white; /* Text color for better visibility */
+  padding: 20px; /* Adds some padding around the content */
+  text-align: center; /* Centers the text */
+}
+

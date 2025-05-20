@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"content="width=device-width,initial-scale=1.0">
+    <title>Monghad Spur Ranch</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>MONGHADI SPUR RANCH</h1>    
+        
+            <nav>
+                <ul>
+                  <li><a href="index.html">Home</a></li> 
+                  <li><a href="breeds.html">breeds</a></li> 
+                  <li><a href="tools.html">Tools</a></li>
+                  <li><a href="about.html">About</a></li>
+                  <li><a href=" auction.html">Auction</a></li>
+                  <li><a href="contact.html">Contact</a></li> 
+                  <li><a href="testmonial.html">Testmonial</a></li>
+                </ul>
+                </nav>
+    </header>
+<header>
+
+
+    <h1>Livestock Auction</h1>
+    <p>Welcome to the Online Livestock Auction. Bid and purchase livestock directly from the Monghadi spur ranch!</p>
+</header>
+
+
+<section>
+    <h2>Current Livestock Auctions</h2>
+
+    <div class="auction-item">
+        <img src="images/brahman.jpg" alt="Cow">
+        <h2>Brahman - 5 years old</h2>
+        <p><strong>Description:</strong> This healthy 5-year-old brown cow is perfect for dairy or beef production. Vaccinated and regularly checked by veterinarians.</p>
+        <p>Starting Bid:<span id="starting-bid">P88oo</span></p>
+        <p><strong>Location:</strong> Monghadi Ranch</p>
+
+    <input type="number"id="bid-amount" placeholder="enter your bid">
+        <button oneclick="placebid()">Place Bid</button>
+    </div>
+
+    <div class="auction-item">
+        <img src="images/dorper.jpg" alt="Sheep">
+        <h2>White Sheep - 2 years old</h2>
+        <p><strong>Description:</strong> A healthy, young sheep that is ready for breeding or wool production. Well-groomed and active.</p>
+        <p><strong>Starting Bid:</strong> P2200</p>
+        <p><strong>Location:</strong> Monghadi ranch</p>
+  
+        
+    <input type="number"id="bid-amount" placeholder="enter your bid">
+    <button oneclick="placebid()">Place Bid</button>
+    </div>
+
+    <div class="auction-item">
+        <img src="images/kalahari.jpg" alt="Goat">
+        <h2>Kalahari Goat - 3 years old</h2>
+        <p><strong>Description:</strong> This black goat is known for its great health and productivity. Suitable for milk production or breeding purposes.</p>
+        <p><strong>Starting Bid:</strong> P3500</p>
+        <p><strong>Location:</strong> Monghadi ranch</p>
+     
+    <input type="number"id="bid-amount" placeholder="enter your bid">
+    <button oneclick="placebid()">Place Bid</button>
+    </div>
+</section>
+
+<footer>
+    <p>&copy; 2025 Livestock Auction. All rights reserved.</p>
+</footer>
+</body>
+
+</html>
